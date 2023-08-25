@@ -1,0 +1,44 @@
+.promo__main {
+/* width: 1440px; */
+height: 574px;
+margin-bottom: 70px;
+}
+
+.promo__mainBg {
+background: url('/img/Design/promo_pic_background.png') no-repeat center/cover;
+}
+.promo__textMain {
+  color: #fff;
+  font-size: 18px;
+}
+.promo__text {
+  width: 540px;
+  height: 209px;
+  margin-top: 100px;
+}
+.promo__titleText {
+  color: #F4F6F5;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 70px;
+}
+.promo__title {
+width: 521px;
+height: 80px;
+ display: flex;
+}
+.promo__titleIcon {
+width: 80px;
+height: 80px;
+margin-top: 70px;
+margin-right: 20px;
+}
+.promo__button {
+width: 257px;
+height: 65px;
+padding: 20px 60px 20px 60px;
+font-size: 20px;
+background: #EEDB6D;
+border: none;
+}

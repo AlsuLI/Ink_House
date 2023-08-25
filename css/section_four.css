@@ -1,0 +1,32 @@
+.company__info {
+  display: flex;
+  height: 440px;
+  margin-bottom: 70px;
+  
+}
+
+.info__text {
+  width: 635px;
+  height: 108px;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.info__img {
+  width: 361px;
+  height: 440px;
+  margin-right: 30px;
+}
+.info__title {
+  font-size: 40px;
+  margin-top: 124px;
+  margin-bottom: 20px;
+}
+
+.info__pics {
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}

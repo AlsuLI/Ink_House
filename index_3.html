@@ -23,9 +23,9 @@
           </div>
           <div >
             <nav class="nav_header">
-              <a class="nav_link" href="#Reproduction">Репродукции</a>
-              <a class="nav_link" href="#News">Новинки</a>
-              <a class="nav_link" href="#AboutUs">О нас</a>
+              <a class="nav_link" href="@">Репродукции</a>
+              <a class="nav_link" href="@">Новинки</a>
+              <a class="nav_link" href="@">О нас</a>
               <a href="@"> <img src="./img/icons/cart.svg"/></a>
             </nav>
           </div>
@@ -53,17 +53,19 @@
             </div>
           </div>
         </section>
-        <section class="reproduction" id="Reproduction">
+        <section class="reproduction">
           <div class="reproduction_name">
+            <div class="reproduction_title">
               <p class="reprodaction_text">Репродукции</p>
-            <nav class="reprodaction_nameButton">
-              <a class="button_line" href="@">Франция</a>
-              <a class="button_line" href="@">Германия</a>
-              <a class="button_line" href="@">Англия</a>
-            </nav>
+            </div>
+            <div class="reprodaction_nameButton">
+              <button class="button_line">Франция</button>
+              <button class="button_line">Германия</button>
+              <button class="button_line">Англия</button>
+            </div>
           </div>
 
-          <div class="reproduction__cards cards" >
+          <div class="reproduction__cards cards">
             <div class="cards_cart">
               <div class="card__wrapperImg">
                 <img
@@ -176,9 +178,10 @@
             </div>
           </section>
           </div>
+    
           <section class="promo__mainBg">
             <div class="container">
-            <div class="promo__main" id="News">
+            <div class="promo__main">
               <div class="promo__title">
                 <img class="promo__titleIcon" src="./img/icons/Star 2_promo.svg" alt="star">
                 <p class="promo__titleText">Новая коллекция французских авторов</p>
@@ -196,11 +199,9 @@
           
            <section>
             <div class="container">
-            <div class="company__info" id="AboutUs">
+            <div class="company__info">
             <div >
-              <img class="info__img" src="./img/Design/FrameGroup.webp" srcset="
-               ./img/Design/FrameGroup.webp 1x, ./img/Design/FrameGroup.webp 2x"
-                    alt="frame">
+              <img class="info__img" src="./img/Design/FrameGroup.png" alt="frame">
             </div>
             <div >
               <div>
@@ -210,19 +211,9 @@
               <p class="info__text">Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.</p>
             </div>
             <div class="info__pics">
-              <img src="./img/Design/photo_1.webp" 
-              srcset="
-                    ./img/Design/photo_1.webp   1x,
-                    ./img/Design/photo_1@2x.webp 2x
-                  " alt="photo1">
-              <img src="./img/Design/photo_2.png" srcset="
-                   ./img/Design/photo_2.webp   1x,
-                    ./img/Design/photo_2@2x.webp 2x
-                  " alt="photo2">
-              <img src="./img/Design/photo_3.png" srcset="
-                    ./img/Design/photo_3.webp   1x,
-                    ./img/Design/photo_3@2x.webp 2x
-                  " alt="photo3">
+              <img src="./img/Design/photo_1.png" alt="photo1">
+              <img src="./img/Design/photo_2.png" alt="photo2">
+              <img src="./img/Design/photo_3.png" alt="photo3">
             </div>
           </div>
           </div>
@@ -232,7 +223,6 @@
         <footer class="footer"> 
           <div class="container">
             <div class="footer__main">
-              <div class="wrapper__imgPhone">
             <div class="wrapper">
             <img src="./img/icons/Star 1_top.svg" alt="starIcon__header" />
             <p class="one">Ink. House</p>
@@ -241,33 +231,32 @@
               <a href="tel:+79995435454">+7 (999) 543-54-54</a>
               <p class="footer__phoneText">Мастерская</p>
             </div>
-          </div>
             <div class="footer__list">
               <ul>
-                <li class="footer__list2">Репродукции</li>
-                <li class="footer__list1"> <a class="footer__list1" href="@">Франция</a></li>
-                <li class="footer__list1"> <a class="footer__list1" href="@">Германия</a></li>
-                <li class="footer__list1"> <a class="footer__list1" href="@">Англия</a></li>
+                <li class="footer__list1">Репродукции</li>
+                <li class="footer__list1">Франция</li>
+                <li class="footer__list1">Германия</li>
+                <li class="footer__list1">Англия</li>
               </ul>
               <ul>
-                <li class="footer__list2">Новинки</li>
+                <li class="footer__list1">Новинки</li>
                 <li class="footer__list1">2021</li>
                 <li class="footer__list1">2020</li>
               </ul>
               <ul>
-                <li class="footer__list2">О нас</li>
+                <li class="footer__list1">О нас</li>
                 <li class="footer__list1">Художники</li>
                 <li class="footer__list1">Менеджеры</li>
               </ul>
               </div>
               <div class="footer__mediaIcons">
-              <nav class="footer__icons">
+              <nav>
               <a href="@"> <img src="./img/icons/facebook_icon.svg"/></a>
               <a href="@"> <img src="./img/icons/inst_icon.svg"/></a>
               <a href="@"> <img src="./img/icons/youtube_icon.svg"/></a>
               </nav>
-              <p class="footer__mediaText">Ink. House ®</p>
-              <p class="footer__mediaText">All rights reserved</p>
+              <p>Ink. House ®</p>
+              <p>All rights reserved</p>
               </div>
              </div>
             </div>

@@ -1,12 +1,44 @@
-.text {
+.reproduction_name {
+display: flex;
+justify-content: space-between;
+height: 44px;
+margin-bottom: 30px;
+align-items: center;
+}
+/* .reproduction_title {
+  width: 255px;
+} */
+.reprodaction_text {
+  font-size: 40px;
+}
+.reprodaction_nameButton {
+  width: 428px;
+  display: flex;
+  justify-content: space-between;
+}
+.button_line {
+  border-radius: 30px;
+  font-size: 20px;
+  background: #376B44;
+  color: #F4F6F5;
+  border: none;
+  text-align: center;
+  border: solid 2px black;
+  width: max-content;
+  padding: 10px 20px;
+  border: none;
+}
+
+.card__wrapperImg {
   padding: 20px;
   width: 350px;
   height: 730p;
   background-color: #e1ede6;
+  margin-bottom: 30px;
+  
 }
-.text1 {
+.cart__autor {
   color: #86928b;
-  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -16,7 +48,7 @@
   width: 132x;
   margin: 10px 0 10px 0px;
 }
-.text2 {
+.cart__name {
   color: #2c2d35;
   font-family: Raleway;
   font-size: 30px;
@@ -26,7 +58,7 @@
   width: 310px;
   margin: 20px 0 10px 0px;
 }
-.text3 {
+.cart__description {
   color: #2c2d35;
   font-family: Raleway;
   font-size: 18px;
@@ -38,10 +70,10 @@
   width: 310px;
   /* margin: 8px 0 px 30px 0px; */
 }
-.text4 {
+.cart__price {
   color: #598d66;
   font-family: Raleway;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -49,7 +81,7 @@
   width: 121px;
   margin: 20px 0 20px 0px;
 }
-.text5 {
+.cart__btn {
   color: #598d66;
   font-family: Raleway;
   font-size: 24px;
@@ -59,11 +91,22 @@
   border: 1px solid #598d66;
   display: inline-flex;
   height: 65px;
-  /* padding: 20px 60px; */
   justify-content: center;
   align-items: center;
   gap: 6px;
-  flex-shrink: 0;
   height: 56px;
   width: 310px;
+  background: #E1EDE6;
+}
+
+.card__img {
+ height: 422px;
+ width: 310px;
+ display: block;
+ 
+}
+.cards_cart {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
 }
