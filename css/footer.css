@@ -1,5 +1,6 @@
 .footer {
   background: #E1EDE6;
+  margin-top: 70px;
 }
 .footer__list {
   display: flex;
@@ -21,7 +22,7 @@
  font-size: 23px; 
 }
 .footer__main {
- height: 168px; 
+ height: 100%; 
   display: flex;
   justify-content: space-between;
   padding-top: 23px;
@@ -38,6 +39,7 @@
 .footer__mediaText {
   font-size: 12px;
   line-height: 14px;
+  margin-bottom: 6px;
 }
 .wrapper__imgPhone {
   display: flex;
@@ -48,4 +50,61 @@
   font-size: 18px;
   color: #86928B; 
   margin-top: 8px;
+}
+.footer__phone > a {
+  font-size: 20px;
+}
+
+.footer__mediaIcons {
+  margin-left: 248px;
+}
+
+@media screen and (max-width: 768px) {
+ 
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  width: 445px;
+  height: 122px;
+  margin-top: 30px;
+}
+
+.footer__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 23px;
+  padding-bottom: 23px;
+
+}
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 132px;
+  margin-bottom: 10px;
+  
+}
+.footer__mediaText {
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 6px;
+}
+.wrapper__imgPhone {
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 690px; */
+  flex-direction: row;
+  
+}
+.footer__phoneText {
+  font-size: 18px;
+  color: #86928B; 
+  margin-top: 8px;
+}
+.footer__phone > a {
+  font-size: 20px;
+}
+.footer__phone {
+  /* display: flex; */
+}
 }
