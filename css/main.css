@@ -7,8 +7,28 @@
 }
 body {
   font-family: 'Raleway', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .container {
   max-width: 1110px;
   margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+.container {
+  max-width: 1110px;
+  margin: 0 39px;
+}
+}
+@media screen and (max-width: 576px) {
+.container {
+  max-width: 1110px;
+  margin: 0 33px;
+}
+}
+@media screen and (max-width: 320px) {
+.container {
+  margin: 0 15px;
+}
+
 }

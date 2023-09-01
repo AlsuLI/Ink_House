@@ -35,13 +35,12 @@ height: 80px;
 margin-right: 20px;
 }
 .promo__button {
-width: 257px;
-height: 65px;
 padding: 20px 60px 20px 60px;
 font-size: 20px;
 background: #EEDB6D;
 border: none;
 margin-top: 60px;
+margin-bottom: 70px;
 }
 
 @media screen and (max-width: 768px) {
@@ -64,5 +63,52 @@ margin-bottom: 70px;
   margin-top: 20px;
   word-wrap: break-word;
   line-height: 27px;
+}
+}
+@media screen and (max-width: 660px) {
+.promo__textMain {
+  color: #fff;
+  font-size: 16px;
+}
+.promo__titleText {
+  font-size: 30px;
+  line-height: 30px;
+   word-wrap: break-word;
+}
+.promo__button {
+font-size: 18px;
+}
+.promo__titleIcon {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+}
+
+@media screen and (max-width: 320px) {
+.promo__mainBg {
+margin-top: 30px;
+}
+.promo__textMain {
+  font-size: 16px;
+  line-height: 22.4px;
+}
+.promo__titleText {
+  font-size: 24px;
+  line-height: 24px;
+   word-wrap: break-word;
+}
+.promo__button {
+padding-left: 81px;
+padding-right: 81px;
+margin-bottom: 51px;
+}
+.promo__titleIcon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.promo__main {
+  padding-top: 50px;
 }
 }

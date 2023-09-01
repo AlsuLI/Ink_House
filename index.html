@@ -13,21 +13,27 @@
   </head>
   <link rel="stylesheet" href="./css/style.css" />
   <body>
-    
       <header class="header">
         <div class="container">
         <div class="header_top">
-          <div class="wrapper">
+          <div class="wrapper__main">
+          <div class="wrapper__header">
             <img src="./img/icons/Star 1_top.svg" alt="starIcon__header" />
             <p class="one">Ink. House</p>
-          </div>
-          <div >
-            <nav class="nav_header">
+          </div></div>
+            <div class="menu"> 
+              <label for="burger">
+              <input type="checkbox" name="check" id="burger"> 
+              <span class="dash"></span>
+             
+               <nav class="nav_header">
               <a class="nav_link" href="#Reproduction">Репродукции</a>
               <a class="nav_link" href="#News">Новинки</a>
               <a class="nav_link" href="#AboutUs">О нас</a>
-              <a href="@"> <img src="./img/icons/cart.svg"/></a>
-            </nav>
+              <a href="#"> 
+                <img class="cart" src="./img/icons/cart.svg"/></a>
+               </nav>
+             </label>
           </div>
         </div>
       </div>
@@ -37,13 +43,15 @@
         <section class="section_first">
           <div class="main_section">
             <div class="main_img">
-              <img class="main_img" src="./img/Design/main_img@1x.png" alt="" />
+              <img class="main_img_img" src="./img/Design/main_img@1x.png" alt="" />
             </div>
+           
             <div class="main_text">
               <h1 class="main_section_title">
                 Реплики картин от
                 <span class="main_section_titleGreen">Ink. House</span>
               </h1>
+           
               <p class="main_section_text">
                 Высокое качество отрисовки на плотной бумаге или льняном холсте.
                 Редкие произведения, доступные цены.
@@ -205,7 +213,7 @@
             </div>
             <div >
               <div>
-              <h1 class="info__title">Наша команда</h1>
+              <h2 class="info__title">Наша команда</h2>
             </div>
             <div>
               <p class="info__text">Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.</p>
@@ -230,19 +238,19 @@
           </div>
            </section>
           
-        <footer class="footer"> 
-          <div class="container">
-            <div class="footer__main">
-              <div class="wrapper__imgPhone">
-            <div class="wrapper">
-            <img src="./img/icons/Star 1_top.svg" alt="starIcon__header" />
-            <p class="one">Ink. House</p>
+      <footer class="footer"> 
+        <div class="container">
+          <div class="footer__main"> 
+            <div class="wrapper__imgPhone">
+                <div class="wrapper">
+                <img src="./img/icons/Star 1_top.svg" alt="starIcon__header" />
+                <p class="one">Ink. House</p>
+              </div>
+              <div class="footer__phone">
+                <a href="tel:+79995435454">+7 (999) 543-54-54</a>
+                <p class="footer__phoneText">Мастерская</p>
+              </div>
             </div>
-            <div class="footer__phone">
-              <a href="tel:+79995435454">+7 (999) 543-54-54</a>
-              <p class="footer__phoneText">Мастерская</p>
-            </div>
-          </div>
             <div class="footer__list">
               <ul>
                 <li class="footer__list2">Репродукции</li>
@@ -260,20 +268,19 @@
                 <li class="footer__list1">Художники</li>
                 <li class="footer__list1">Менеджеры</li>
               </ul>
-              
+            </div>
               <div class="footer__mediaIcons">
               <nav class="footer__icons">
-              <a width="24" height="24"  href="@"> <img src="./img/icons/facebook_icon.svg"/></a>
-              <a width="24" height="24"  href="@"> <img src="./img/icons/inst_icon.svg"/></a>
-              <a width="24" height="24"  href="@"> <img src="./img/icons/youtube_icon.svg"/></a>
+                 <a width="24" height="24"  href="#"> <img src="./img/icons/facebook_icon.svg"/></a>
+                 <a width="24" height="24"  href="#"> <img src="./img/icons/inst_icon.svg"/></a>
+                 <a width="24" height="24"  href="#"> <img src="./img/icons/youtube_icon.svg"/></a>
               </nav>
               <p class="footer__mediaText">Ink. House ®</p>
-              <p class="footer__mediaText">All rights reserved</p></div>
+              <p class="footer__mediaText">All rights reserved</p>
               </div>
-             </div>
-            </div>
-            
-          </footer>
+          </div>
+       </div> 
+     </footer>
         </div>
          </main>
     

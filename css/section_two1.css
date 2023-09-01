@@ -1,7 +1,7 @@
 .reproduction_name {
 display: flex;
 justify-content: space-between;
-height: 44px;
+/* height: 44px; */
 margin-bottom: 30px;
 margin-top: 69px;
 align-items: center;
@@ -59,8 +59,9 @@ align-items: center;
   text-align: center;
   width: 310px;
   background: #E1EDE6;
-  padding: 20px 65px;
-  margin: 20px 0px 0px 0px;
+  padding: 20px 60px;
+  margin-top: 20px;
+  text-align: center;
 }
 .card__img {
  height: 422px;
@@ -73,11 +74,27 @@ align-items: center;
  justify-content: space-between;
 }
 
+@media screen and (max-width: 1071px) {
+.cards_cart {
+ justify-content: space-evenly;
+}
+.card__wrapperImg {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+}
+@media screen and (max-width: 780px) {
+.card__wrapperImg {
+  margin-left: 0;
+  margin-right: 0;
+}
+}
+
 @media screen and (max-width: 768px) {
 .reproduction_name {
 display: flex;
 justify-content: space-between;
-height: 44px;
+/* height: 44px; */
 margin-bottom: 30px;
 margin-top: 69px;
 align-items: center;
@@ -128,9 +145,7 @@ align-items: center;
   margin-top: 30px;
 }
 .cart__btn {
-  color: #598d66;
   font-size: 20px;
-  border: 1px solid #598d66;
   height: 65px;
   text-align: center;
   width: 290px;
@@ -146,7 +161,178 @@ align-items: center;
 .cards_cart {
  display: flex;
  flex-wrap: wrap;
- justify-content: space-between;
+ justify-content: space-evenly;
 }
-  
+}
+
+@media screen and (max-width: 760px) {
+.cards_cart {
+ justify-content: space-around;
+}
+  .card__img {
+ height: 300px;
+ width: 220px;
+ display: block;
+}
+.card__wrapperImg {
+  padding: 20px;
+  width: 260px;
+  height: 564px;
+  background-color: #e1ede6;
+  margin-bottom: 30px;
+}
+.cart__btn {
+  font-size: 16px;
+  height: 50px;
+  width: 220px;
+  padding: 20px 30px;
+  margin: 10px 0 10px 0;
+}
+  .cart__autor {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.cart__name {
+  font-size: 24px;
+}
+.cart__description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.reprodaction_text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.button_line {
+  font-size: 18px;
+}
+}
+
+@media screen and (max-width: 676px) {
+
+    .cards_cart {
+    justify-content: space-around;
+  }
+   .card__img {
+ height: 250px;
+ width: 200px;
+ display: block;
+}
+.card__wrapperImg {
+  padding: 20px;
+  width: 240px;
+  height: 514px;
+  background-color: #e1ede6;
+  margin-bottom: 30px;
+}
+.cart__btn {
+  font-size: 18px;
+  height: 50px;
+  width: 200px;
+  padding: 20px 30px;
+  margin: 10px 0 10px 0;
+
+}
+.cart__autor {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.cart__name {
+  font-size: 24px;
+}
+.cart__description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.reprodaction_text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.button_line {
+  font-size: 18px;
+}
+.reproduction_name {
+display: flex;
+justify-content: space-around;
+margin-bottom: 20px;
+margin-top: 50px;
+flex-direction: column;
+align-items: flex-start;
+}
+}
+
+@media screen and (max-width: 646px) {
+  .reproduction_name {
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+margin-top: 50px;
+flex-direction: column;
+align-items: flex-start;
+}
+}
+
+@media screen and (max-width: 576px) {
+  .card__img {
+ height: 250px;
+ width: 200px;
+ display: block;
+}
+.card__wrapperImg {
+  padding: 20px;
+  width: 240px;
+  height: 514px;
+  background-color: #e1ede6;
+  margin-bottom: 30px;
+}
+.cart__btn {
+  font-size: 18px;
+  height: 50px;
+  width: 200px;
+  padding: 20px 30px;
+  margin: 10px 0 10px 0;
+
+}
+.cart__autor {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.cart__name {
+  font-size: 24px;
+}
+.cart__description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.reprodaction_text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.button_line {
+  font-size: 18px;
+}
+.reproduction_name {
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+margin-top: 50px;
+flex-direction: column;
+align-items: flex-start;
+}
+}
+@media screen and (max-width: 320px) {
+    .card__img {
+    height: 250px;
+    width: 250px;
+  }
+    .card__wrapperImg {
+    width: 290px;
+    height: 514px;
+    }
+    .reprodaction_nameButton {
+    width: 384px;
+  }
+  .reproduction_name {
+  overflow: scroll;
+ }
 }
