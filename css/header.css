@@ -34,7 +34,9 @@ height: 100px;
   width: 22px;
   height: 22px;
 }
-
+label[for='burger'] {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
 .nav_link {

@@ -114,7 +114,11 @@ padding: 20px 60px 20px 60px;
  /* margin: 10px 0 0 0; */
   }
 }
-
+@media screen and (max-width: 463px) {
+  .main_img {
+  display: none;
+} 
+}
 @media screen and (max-width: 320px) {
     .main_section_text {
     font-size: 14px;
