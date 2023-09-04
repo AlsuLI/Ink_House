@@ -134,20 +134,20 @@ margin-top: 16px;
   background-color: #4C5866;
   bottom: 10px;
 }
-label Input:checked ~ .dash{
+label input:checked ~ .dash{
   top: 50%;
   transform: rotate(45deg);
   transition: 0.5s;
 }
-label Input:checked ~ .dash::before {
+label input:checked ~ .dash::before {
   transform: rotate(90deg);
   top: 0;
 }
-label Input:checked ~ .dash::after {
+label input:checked ~ .dash::after {
   bottom: 50%;
   transform: rotate(0deg);
 }
-Input[type="checkbox"] {
+input[type="checkbox"] {
   opacity: 0;
 }
 .nav_header {
@@ -163,7 +163,7 @@ right: 343px;
 .cart {
   display: none;
 }
-label Input:checked ~ .nav_header {
+label input:checked ~ .nav_header {
 flex-direction: column;
 min-width: 320px;
 min-height: 289px;

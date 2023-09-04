@@ -30,7 +30,7 @@
   justify-content: space-between;
 }
 .info__img__wrapper {
-  max-width: 361px;
+  /* max-width: 361px; */
   max-height: 440px;
   margin-right: 20px;
 }
@@ -110,7 +110,10 @@ text-align: left;
     font-size: 24px;
     margin-top: 30px;
     margin-bottom: 0;
-   
-
   }
+  .info__img {
+  display: block;
+  height: 100%;
+  max-width: 535px;
+}
 }
